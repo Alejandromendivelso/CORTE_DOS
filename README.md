@@ -1,2 +1,10 @@
-# CORTE_DOS
-En este repositorio se encontraran todos trabajos realizados durante el segundo corte 
+---
+description: Veremos una descripción de cada uno de los proyectos elaborados
+---
+
+# CORTE\_DOS
+
+## Matriz de adyacencia en grafos  
+
+
+
