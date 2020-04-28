@@ -1,6 +1,6 @@
 # CORTE\_DOS
 
-## Matriz de adyacencia en grafos  
+## Matriz de adyacencia  grafos  
 
 asdfghjklkjhgfdsaASDFGHJKLKJHGFDS
 
