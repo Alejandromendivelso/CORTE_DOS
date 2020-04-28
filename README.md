@@ -6,6 +6,10 @@ Una matriz  adyacente es una matriz cuadrada de NXN que es asociada a un grafo d
 
 
 
+
+
+
+
 ## Algoritmo de Dijkstra 
 
 El algoritmo de de Dijkstra o también llamado algoritmo del caminos mínimos, es un algoritmo para determinar el minino mas corto dado por un vértice de origen al resto de los vértices en un grafo con peso en cada un a de sus aristas. 
@@ -14,7 +18,13 @@ El algoritmo de de Dijkstra o también llamado algoritmo del caminos mínimos, e
 
 ## Problema de la Mochila 
 
+El problema de la mochila también conocido como knapsack problem, es un problema donde nos plantea que un excursionista que debe preparar su mochila, la cual tiene una capacidad limitada, el problema consiste en seleccionar un subconjunto de objetos de forma tal que se maximice la utilidad que excursionista necesita  
 
+
+
+## Ejercicios Fractales 
+
+Un fractal es básicamente una figura geométrica que muestras las mismas características sin importar cuanto uno se acerque. 
 
 
 
