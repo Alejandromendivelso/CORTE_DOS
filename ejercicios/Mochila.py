@@ -63,4 +63,3 @@ while(mochila.peso < mochila.capacidad):
 print ("Resultado: Fracciones de los objetos en la mochila: ")
 for i in range(len(resultado)-1, -1, -1):
     print ("Objeto ", i, ": ", resultado[i])
-    print("y que es esto: ",resultado)

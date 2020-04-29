@@ -1,4 +1,4 @@
-import math
+import math 
 
 class Grafo:
     def __init__(self):
@@ -6,7 +6,7 @@ class Grafo:
         self.matriz =[[None]*0 for i in range(0)]
    
     def esta_vrectices(self, v):
-        if self.vertice.count(v) ==0:
+        if self.vertice.count(v) == 0:
             return False
         return True
     
@@ -38,7 +38,7 @@ class Grafo:
 
         for c in range(len(i)):
             cadena += "\t" + str(self.vertice[c])
-        cadena +="  \n" + ("  -" +len(i)) 
+        cadena +="  \n" + ("  -" * len(i)) 
 
         for f in range(len (i)):
             cadena += "\n" +str(self.vertice[f]) + " |"
@@ -59,25 +59,26 @@ class Grafo:
 
 
 if __name__== '_main_':
-    M = Grafo()
+    g = Grafo()
 
-    M.Agregar("A")
-    M.Agregar("B")
-    M.Agregar("C")
-    M.Agregar("D")
-    M.Agregar("E")      
-    M.Agregar("F")
-    M.Agregar("G")
+    g.Agregar("A")
+    g.Agregar("B")
+    g.Agregar("C")
+    g.Agregar("D")
+    g.Agregar("E")      
+    g.Agregar("F")
+    g.Agregar("G")
 
-    M.Agregar_arista("A","B",5,True)
-    M.Agregar_arista("A","D",4,True)
-    M.Agregar_arista("A","E",2,True)
-    M.Agregar_arista("B","C",1,False)
-    M.Agregar_arista("B","E",1,True)
-    M.Agregar_arista("C","D",3,False)
-    M.Agregar_arista("C","F",5,True)
-    M.Agregar_arista("D","E",3,True)
-    M.Agregar_arista("D","F",4,True)
-    M.Agregar_arista("E","F",8,True)
+    g.Agregar_arista("A","B",5,True)
+    g.Agregar_arista("A","D",4,True)
+    g.Agregar_arista("A","E",2,True)
+    g.Agregar_arista("B","C",1,False)
+    g.Agregar_arista("B","E",1,True)
+    g.Agregar_arista("C","D",3,False)
+    g.Agregar_arista("C","F",5,True)
+    g.Agregar_arista("D","E",3,True)
+    g.Agregar_arista("D","F",4,True)
+    g.Agregar_arista("E","F",8,True)
 
-    M.Imprimir(M.matriz) 
+    g.Imprimir(g.matriz) 
+    print("Esta es la matriz de adyacencia ")
