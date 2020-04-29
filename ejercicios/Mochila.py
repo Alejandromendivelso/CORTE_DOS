@@ -1,7 +1,3 @@
-##############
-## PROBLEMA DE LA MOCHILA
-####################
- 
 class Mochila:
     def __init__(self, peso, capacidad):
         self.peso = peso
